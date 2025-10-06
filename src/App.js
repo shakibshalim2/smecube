@@ -13,6 +13,10 @@ import EcommerceSolution from './pages/services/EcommerceSolution';
 import WebDevelopment from './pages/services/WebDevelopment';
 import BusinessConsulting from './pages/services/BusinessConsulting';
 import BrandPageSetup from './pages/services/BrandPageSetup';
+import ChatbotSetup from './pages/services/ChatbotSetup';
+import GraphicDesign from './pages/services/GraphicDesign';
+import LandingPage from './pages/services/LandingPage';
+import BulkSMS from './pages/services/BulkSMS';
 
 function App() {
   return (
@@ -32,6 +36,13 @@ function App() {
 
           <Route path="/services/business-consulting" element={<BusinessConsulting />} />
 <Route path="/services/brand-page-setup" element={<BrandPageSetup />} />
+
+            <Route path="/services/chatbot-setup" element={<ChatbotSetup />} /> {/* Add this route */}
+
+            <Route path="/services/graphic-design" element={<GraphicDesign />} />
+<Route path="/services/landing-page" element={<LandingPage />} />
+<Route path="/services/bulk-sms" element={<BulkSMS />} />
+
         </Routes>
         <Footer />
         <ChatSupport />

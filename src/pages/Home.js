@@ -74,7 +74,7 @@ const services = [
   },
   { 
     icon: "🧰", 
-    title: "ইউ ফিচিং", 
+    title: "ইইস্যু ফিক্সিং", 
     color: "bg-red-50", 
     borderColor: "border-red-200",
     link: "/services/ui-features"
